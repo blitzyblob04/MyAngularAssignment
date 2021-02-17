@@ -1,0 +1,82 @@
+* {
+  text-decoration: none;
+  font-family: 'Source Sans Pro',
+    sans-serif;
+  /* background-color: #9fb0d3; */
+  ;
+}
+
+body {
+  background-color: #9fb0d3;
+}
+
+
+.leftSide {
+  padding-top: 5rem;
+  padding-left: 12rem;
+
+}
+
+h1 {
+  font-size: 3rem;
+  color: #3b5998;
+  font-family: 'Titillium Web',
+    sans-serif;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mCard1 {
+  padding-left: 11rem;
+  height: 10rem;
+  padding-top: -1rem;
+}
+
+mat-card {
+  display: inline-block;
+  background-color: rgb(211, 211, 211);
+  height: 10rem;
+  width: 10rem;
+}
+
+mat-card:hover {
+  box-shadow: 1px 1px 2px black,
+    0 0 25px black,
+    0 0 5px gray;
+  border: black;
+}
+
+.loginContainer {
+  width: 26rem;
+  height: 20rem;
+  background-color: #fff;
+  align-content: center;
+  margin-left: 15rem;
+  margin-top: -14rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px rgb(187, 182, 182),
+    0 0 5px black,
+    0 0 5px gray;
+  ;
+}
+
+.logForms {
+  align-content: center;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 8rem;
+  height: 3rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
